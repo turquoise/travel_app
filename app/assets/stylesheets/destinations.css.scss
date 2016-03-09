@@ -1,0 +1,65 @@
+// Place all the styles related to the Destinations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.destination img {
+  width: 100%;
+}
+
+.destination p {
+  color: #0f0f0f;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.destination .btn {
+  width: 100px;
+}
+
+.destination a:hover,
+.destination .btn:hover {
+  background-color: #003ec9;
+  transition: background-color .5s;
+}
+
+.destination form {
+  margin: 20px;
+}
+
+.card a,
+.destination a,
+.destination .btn {
+ background-color: #00217f ;
+ color: #fff;
+ font-size: 14px;
+ font-weight: 300;
+ text-align: center;
+ text-decoration: none;
+ transition: background-color .5s;
+ padding: 6px 30px;
+ display: inline-block;
+ cursor: pointer;
+ margin: 8px 0 20px;
+}
+
+
+.destination form label {
+  width: 100%;
+}
+
+.destination form input {
+  border: 1px solid #d6d6d6;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+  padding: 20px;
+  width: calc(100% - 40px);
+}
+
+.destination form input:focus {
+  border: 1px solid #003ec9;
+  font-size: 14px;
+  font-weight: 300;
+  box-shadow: 0;
+  outline: 0;
+  transition: border 0.5s;
+}
