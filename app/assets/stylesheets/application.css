@@ -32,8 +32,8 @@ html, body {
 }
 
 .header h1 {
-  color: #00ccff;
-  font-size: 24px;
+  color: white;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -43,10 +43,14 @@ html, body {
 
 h2 a {
   text-decoration: none;
+
 }
 
+
 .container h2 {
-  color: #00217f;
+  color: white;
+   font-size: 30px;
+   text-shadow: 2px 2px 4px #000000;
 }
 
 .card {
@@ -63,6 +67,12 @@ h2 a {
   text-align: center;
   top: 25%;
 }
+
+#show, #title {
+  color: #005580;
+  text-shadow: none;
+}
+
 
 .tags img,
 .tag img {
@@ -97,7 +107,7 @@ h2 a {
 .card a,
 .destination a,
 .destination .btn {
- background-color: #00217f ;
+ background-color: #005580 ;
  color: #fff;
  font-size: 14px;
  font-weight: 300;
@@ -164,11 +174,16 @@ h2 a {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
+  
 }
+
 @media (min-width: 992px) {
   .container {
     width: 970px;
@@ -846,5 +861,8 @@ h2 a {
   .destination a,
   .destination .btn {
     padding: 8px 15px;
+  }
+  .container h2 {
+    font-size: 14px;
   }
 }
