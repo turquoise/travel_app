@@ -1,20 +1,23 @@
-<div class="header">
-  <div class="container">
+<div class="top-bar">
+  <div class="title-area">
     <img src="http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/logo-1tm.svg" width="80">
-    <h1>Travel</h1>
+    <h1 class="subheader">Travel</h1>
   </div>
 </div>
 
-<div class="tags">
-  <div class="container">
-    <div class="cards row">
+<div class="row">  
+    <div class="medium-12 columns">
       <% @tags.each do |t| %>
-      <div class="card col-xs-4">
-        <%= image_tag t.image %>
-        <h2><%= t.title %></h2>
-        <%= link_to "Learn more", tag_path(t) %>
-      </div>
+        <div class="medium-4 columns">
+        <div class="overlay-container">
+          <%= image_tag t.image, class: "img" %>
+          <h2 class="overlay"><%= t.title %></h2>
+          </div>
+          <div class="button">
+            <%= link_to "Learn more", tag_path(t), class: "text" %>
+          </div>
+        </div>
       <% end %>
-    </div>
+    
   </div>
-</div>
+

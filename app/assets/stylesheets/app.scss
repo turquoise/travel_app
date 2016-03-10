@@ -1,0 +1,62 @@
+@import "settings";
+@import "foundation";
+
+.top-bar {
+	background-color:   #007a99;
+  	background: linear-gradient( #007a99, #00141a);
+  	border-radius: 6px;
+  	height: 145px;
+    margin-bottom: 10px;
+  	
+
+  
+  	.title-area {
+  		text-align: center;
+  	}
+  		.subheader {
+  			color: white;
+  			font-size: 40px;
+
+  		}
+  	
+}
+
+.button {
+  .text {
+    color: white;
+  }
+}
+
+
+.overlay-container {
+  position: relative
+}
+
+.overlay-container .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.4rem;
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: left;
+
+
+}
+
+#title {
+  font-size: 30px;
+  color: #003d4d;
+  
+  
+}
+
+#show {
+  font-size: 30px;
+  color: #007a99;
+  
+}
+
+
